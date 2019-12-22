@@ -9,6 +9,7 @@ class Game {
         this.numPlayers = numPlayers;
         this.currentHand = 0;
         this.discardPile = [];
+        this.delay = process.env.npm_config_delay || 2000;
 
         this.initPlayers();
         this.initDealer();
