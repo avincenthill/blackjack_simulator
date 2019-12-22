@@ -6,7 +6,7 @@ class Card {
         this.readableRank = this.getReadableRank();
         this.name = `${this.readableRank}${this.suit}`;
 
-        // face cards and aces have value = 10
+        // face cards value = 10 and aces value = 1
         this.value = this.rank >= 10 ? 10 : this.rank === 0 ? 1 : this.rank;
 
         this.count = (this.rank >= 10 || this.rank === 0) ? -1 : this.rank <= 6 ? 1 : 0;
