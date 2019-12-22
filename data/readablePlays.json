@@ -1,0 +1,9 @@
+{
+    "H": "Hit",
+    "S": "Stand",
+    "Dh": "Double if allowed, else Hit",
+    "Ds": "Double if alllowed, else Stand",
+    "P": "Split",
+    "Ph": "Split if Double after Split is allowed, else Hit",
+    "Pd": "Split if Double after Split is allowed, else Double if allowed, else Hit"
+}
