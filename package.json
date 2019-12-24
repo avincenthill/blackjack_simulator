@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
-    "soft": "npm --mode=split run start",
+    "soft": "npm --mode=soft run start",
     "split": "npm --mode=split run start"
   },
   "author": "",

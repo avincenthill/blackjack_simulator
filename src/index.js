@@ -22,7 +22,6 @@ for (let i = 0; i < 100; i++) {
         }
     }
 
-    console.log('\n');
     process.stdout.write(chalk.red('DEALER  '));
     console.log('--', game.dealer.hand[1].name);
     console.log('\n');
